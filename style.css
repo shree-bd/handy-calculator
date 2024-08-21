@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('download.jpeg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#appBg {
+    height: 400px;
+    width: 100%;
+    border: 1px solid #444;
+    border-radius: 10px;
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's width and height */
+    overflow: hidden; /* Prevent content from spilling out */
+}
+
+#appBg form {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+    padding: 0; /* Remove padding to prevent overflow */
+    margin: 0; /* Remove margin to prevent overflow */
+}
+
+#appBg input[type=textfield] {
+    height: 15%;
+    width: 100%;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    text-align: right;
+    font-size: 35px;
+    border: 0;
+    outline: none;
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box;
+}
+
+#appBg input[type=button], input[type=reset] {
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 50%;
+}
+
+#appBg .orange {
+    background-color: rgb(253, 149, 3);
+    color: white !important;
+}
+
+#appBg .gray {
+    background-color: rgb(31, 31, 31);
+    color: white !important;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1; /* Adjust as needed */
+    font-family: 'Roboto', sans-serif;
+}
