@@ -4,7 +4,7 @@ This project is a simple calculator built with HTML, CSS, and JavaScript.
 
 ## Screenshot
 
-![Calculator Screenshot](C:\Users\shrid\Desktop\MERN Projects\online-calculatorpng)
+![Calculator Screenshot](calculator.png)
 
 ## Features
 - Basic arithmetic operations
